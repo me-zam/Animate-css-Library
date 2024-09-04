@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyPortfolio | Ahmaddd</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed&family=Oswald:wght@200..700&display=swap&family=SUSE:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Home Start -->
+    <header
+      id="home"
+      class="animate__animated animate__backInDown animate__fast 800ms"
+    >
+      <div class="hamburger-menu">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <h1 class="logo">MyPortfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="mailto:zammlonewolf@gmail.com">Contact</a></li>
+        </ul>
+      </nav>
+      <button type="submit" class="btn-cta" onclick="redirInstagram()">
+        Follow Me
+      </button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p
+          class="title animate__animated animate__lightSpeedInRight animate__fast 800ms"
+        >
+          Hello, Ahmad Here!
+        </p>
+        <p
+          class="description animate__animated animate__lightSpeedInLeft animate__fast 800ms"
+        >
+          Junior Web Developer from Village.
+        </p>
+        <img
+          src="/assets/img/Ahmad.png"
+          alt="Ahmaddd"
+          class="img-foto animate__animated animate__zoomInDown animate__delay-0.5s"
+        />
+      </div>
+    </div>
+    <!-- Home End -->
+
+    <!-- Skills Start -->
+    <div class="parallax">
+      <div class="skills">
+        <p class="title">First Portfolio Sederhana</p>
+        <p class="description">Ngoding aja Dulu, Jagonya Belakangan.</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsapp()">
+            Let's Collaboration
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="skills">
+          <div class="card-item">
+            <img
+              src="/assets/img/HTML5.png"
+              alt="HTML"
+              class="icons animate__animated animate__pulse animate__infinite infinite"
+            />
+            <p class="card-title">Little Little Skills</p>
+            <p class="card-description">
+              My Litle Skills HTML,CSS, & JAVASCRIPT.
+            </p>
+          </div>
+          <div class="card-item">
+            <img
+              src="/assets/img/css.png"
+              alt="CSS"
+              class="icons animate__animated animate__pulse animate__infinite infinite"
+            />
+            <p class="card-title">Little Little Skills</p>
+            <p class="card-description">
+              My Litle Skills HTML,CSS, & JAVASCRIPT.
+            </p>
+          </div>
+          <div class="card-item">
+            <img
+              src="/assets/img/JS.png"
+              alt="JS"
+              class="icons animate__animated animate__pulse animate__infinite infinite"
+            />
+            <p class="card-title">Little Little Skills</p>
+            <p class="card-description">
+              My Litle Skills HTML,CSS, & JAVASCRIPT.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title">&copy; Ahmad 2024</p>
+      <a href="#home">Back to Home</a>
+    </footer>
+    <!-- Skills End -->
+
+    <script>
+      function redirInstagram() {
+        window.location.href =
+          "https://www.instagram.com/miiz4mmi?igsh=bHdreXNvem83ZXky";
+      }
+      function redirWhatsapp() {
+        window.location.href = "https://wa.link/as4vzm";
+      }
+    </script>
+  </body>
+</html>
